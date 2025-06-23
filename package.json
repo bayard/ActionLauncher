@@ -3,7 +3,7 @@
   "displayName": "Action Launcher",
   "description": "Add customizable buttons to the status bar to execute actions or tasks",
   "version": "1.0.9",
-  "publisher": "RobertOstermann",
+  "publisher": "acamar(bayard)",
   "repository": {
     "type": "git",
     "url": "https://github.com/RobertOstermann/vscode-action-buttons"
