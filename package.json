@@ -54,6 +54,12 @@
           "default": false,
           "markdownDescription": "Automatically generate buttons from npm commands listed in `package.json`."
         },
+        "actionLauncher.refreshPriority": {
+          "type": "number",
+          "required": false,
+          "default": 50000,
+          "markdownDescription": "Set priority of the refresh button, higher the number result in the button become more close to left."
+        },
         "actionLauncher.reloadButton": {
           "type": [
             "string",

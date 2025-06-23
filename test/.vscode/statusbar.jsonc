@@ -6,6 +6,7 @@
   // "actionLauncher.loadNpmCommands": false,
   // Set this to null to reload on configuration change in settings or this file.
   "actionLauncher.reloadButton": null,
+  "actionLauncher.refreshPriority": 50000,
   "actionLauncher.commands": [
     {
       // The label makes adding the command to the dropdown easier.

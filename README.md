@@ -32,6 +32,7 @@ Add customizable buttons to the status bar to execute actions or tasks in VS Cod
   "actionLauncher.configurationFile": false,
   "actionLauncher.loadNpmCommands": false,
   "actionLauncher.reloadButton": "♻️",
+  "actionLauncher.refreshPriority": 50000,
   "actionLauncher.commands": [
     {
         "id": "conda",

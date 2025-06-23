@@ -19,7 +19,7 @@ const init = async (context: vscode.ExtensionContext, disposables: vscode.Dispos
       command: Configuration.extensionName + ".refreshButtons",
       label: Configuration.reloadButton(),
       tooltip: "Refresh the status bar buttons.",
-      priority: 0
+      priority: Configuration.refreshPriority()
     };
 
     Button.createStatusBarButton(statusBarOptions, disposables);

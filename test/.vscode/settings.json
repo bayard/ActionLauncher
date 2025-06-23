@@ -1,5 +1,6 @@
 {
   "actionLauncher.defaultColor": "statusBar.foreground",
-  "actionLauncher.configurationFile": "C:/Users/RobertOstermann/source/repos/extensions/vscode-action-buttons/test/.vscode/statusbar.jsonc",
-  "actionLauncher.loadNpmCommands": false
+  "actionLauncher.configurationFile": "D:/git/ActionLauncher/extensions/vscode-action-buttons/test/.vscode/statusbar.jsonc",
+  "actionLauncher.loadNpmCommands": false,
+  "actionLauncher.refreshPriority": 50000
 }

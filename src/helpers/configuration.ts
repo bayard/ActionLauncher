@@ -134,6 +134,21 @@ export default class Configuration {
   }
 
   /**
+   * @returns The priority of refresh button.
+   */
+  static refreshPriority(): number {
+    if (Configuration.useConfigurationFile()) {
+      const configuration = Configuration.configurationFileJSON();
+      const priority = configuration?.refreshPriority;
+      if (priority !== undefined) priority;
+    }
+
+    return vscode.workspace
+      .getConfiguration(Configuration.extensionName)
+      .get<number>("refreshPriority", 50000);
+  }
+
+  /**
    * @returns Automatically generate buttons from npm commands listed in `package.json`.
    */
   static loadNpmCommands(): boolean {

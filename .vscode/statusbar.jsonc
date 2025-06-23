@@ -4,6 +4,7 @@
   // This JSON could also be set directly in the settings.json file.
   "actionLauncher.defaultColor": "statusBar.foreground",
   "actionLauncher.loadNpmCommands": false,
+  "actionLauncher.refreshPriority": 60090,
   // Set this to null to reload on configuration change in settings or this file.
   "actionLauncher.reloadButton": null,
   "actionLauncher.commands": [
