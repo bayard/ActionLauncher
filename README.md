@@ -1,11 +1,12 @@
 # Action Launcher
 
-##### Folked from Better Status Bar and fix some bugs
+`Folked from Better Status Bar and fix some bugs`
 
 Add customizable buttons to the status bar to execute actions or tasks in VS Code.
 
-## Features
-
+- Execute command with arguments
+  - Ability to launche terminal with specific profile and open in Editor/Console area
+- Adjust button location (with priority and alignment option)
 - Execute command in terminal
 - Execute VS Code command
   - Any command that can be activated via a keyboard shortcut can be activated via a button
