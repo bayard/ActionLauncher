@@ -300,16 +300,16 @@
           "Statusbar.jsonc",
           "StatusBar.json",
           "StatusBar.jsonc",
-          "betterstatusbar.json",
-          "betterstatusbar.jsonc",
-          "betterStatusbar.json",
-          "betterStatusbar.jsonc",
-          "betterStatusBar.json",
-          "betterStatusBar.jsonc",
-          "BetterstatusBar.json",
-          "BetterstatusBar.jsonc",
-          "BetterStatusBar.json",
-          "BetterStatusBar.jsonc"
+          "actionLauncher.json",
+          "actionLauncher.jsonc",
+          "actionLauncher.json",
+          "actionLauncher.jsonc",
+          "actionLauncher.json",
+          "actionLauncher.jsonc",
+          "actionLauncher.json",
+          "actionLauncher.jsonc",
+          "actionLauncher.json",
+          "actionLauncher.jsonc"
         ],
         "url": "./out/src/schema/statusBar.schema.json"
       }

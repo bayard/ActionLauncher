@@ -1,12 +1,12 @@
 {
   // You may need to set the following line in your settings.json
-  "betterStatusBar.configurationFile": "/config/workspace/.vscode/statusbar.jsonc",
+  "actionLauncher.configurationFile": "/config/workspace/.vscode/statusbar.jsonc",
   // This JSON could also be set directly in the settings.json file.
-  "betterStatusBar.defaultColor": "statusBar.foreground",
-  // "betterStatusBar.loadNpmCommands": false,
+  "actionLauncher.defaultColor": "statusBar.foreground",
+  // "actionLauncher.loadNpmCommands": false,
   // Set this to null to reload on configuration change in settings or this file.
-  "betterStatusBar.reloadButton": null,
-  "betterStatusBar.commands": [
+  "actionLauncher.reloadButton": null,
+  "actionLauncher.commands": [
     {
       // The label makes adding the command to the dropdown easier.
       "id": "10",
@@ -31,7 +31,7 @@
       }
     }
   ],
-  "betterStatusBar.dropdowns": [
+  "actionLauncher.dropdowns": [
     {
       "id": "Dropdown",
       "label": "Dropdown",

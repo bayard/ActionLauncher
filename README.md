@@ -20,19 +20,19 @@ Add customizable buttons to the status bar to execute actions or tasks in VS Cod
 
 ## Installation and setup
 
-- [X] Install the `Better Status Bar` extension in your VS Code instance.
+- [X] Install the `Action Launcher` extension in your VS Code instance.
 - [X] After installing, open your VS Code settings.json file.
 - [X] Define the status bar buttons you want. Below is a sample configuration for reference.
 - [X] Reload the VS Code window to see the new buttons. Alternatively, you can run the `Refresh Status Bar Buttons` command to refresh without reloading the window.
 
 ```json
 {
-  // Better Status Bar
-  "betterStatusBar.defaultColor": "statusBar.foreground",
-  "betterStatusBar.configurationFile": true,
-  "betterStatusBar.loadNpmCommands": false,
-  "betterStatusBar.reloadButton": "Refresh Status Bar",
-  "betterStatusBar.commands": [
+  // Action Launcher settings
+  "actionLauncher.defaultColor": "statusBar.foreground",
+  "actionLauncher.configurationFile": false,
+  "actionLauncher.loadNpmCommands": false,
+  "actionLauncher.reloadButton": "♻️",
+  "actionLauncher.commands": [
     {
         "id": "conda",
         "label": "$(snake)",
@@ -95,7 +95,7 @@ Add customizable buttons to the status bar to execute actions or tasks in VS Cod
       "useVsCodeApi": true
     }
   ],
-  "betterStatusBar.dropdowns": [
+  "actionLauncher.dropdowns": [
     {
       "id": "5",
       "label": "Dropdown",
@@ -121,7 +121,7 @@ The commands and dropdowns from `statusBar.json` and `settings.json` are combine
 Keyboard Shortcuts can be set up for each of the commands/dropdowns that have been created.
 
 - Go to File -> Preferences -> Keyboard Shortcuts to manually set keyboard shortcuts.
-- Search for **betterStatusBar**.
+- Search for `ActionLauncher`.
   - If the commands are not available/correct, try refreshing the status bar buttons buttons or reloading the window.
 - There should now be a list of commands with the specified ids (from settings.json).
 - Set the desired keyboard shortcut.

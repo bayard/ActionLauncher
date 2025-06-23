@@ -4,25 +4,25 @@
   "title": "Status Bar",
   "type": "object",
   "properties": {
-    "betterStatusBar.defaultColor": {
+    "actionLauncher.defaultColor": {
       "type": "string",
       "required": false,
       "default": "statusBar.foreground",
       "markdownDescription": "The color to use for status bar button text. The default is the theme color."
     },
-    "betterStatusBar.loadNpmCommands": {
+    "actionLauncher.loadNpmCommands": {
       "type": "boolean",
       "required": false,
       "default": false,
       "markdownDescription": "Automatically generate buttons from npm commands listed in `package.json`."
     },
-    "betterStatusBar.reloadButton": {
+    "actionLauncher.reloadButton": {
       "type": ["string", "null"],
       "required": false,
       "default": null,
       "markdownDescription": "The text for the reload button. The default is to reload on configuration change and not show a reload button."
     },
-    "betterStatusBar.commands": {
+    "actionLauncher.commands": {
       "type": "array",
       "default": [],
       "markdownDescription": "A list of status bar buttons for specified commands.",
@@ -39,7 +39,7 @@
         "properties": {
           "id": {
             "type": "string",
-            "markdownDescription": "The unique ID of the status bar button. The ID is prepended with the extension name (betterStatusBar) and can be used to create keyboard shortcuts."
+            "markdownDescription": "The unique ID of the status bar button. The ID is prepended with the extension name (actionLauncher) and can be used to create keyboard shortcuts."
           },
           "label": {
             "type": "string",
@@ -132,7 +132,7 @@
         }
       }
     },
-    "betterStatusBar.dropdowns": {
+    "actionLauncher.dropdowns": {
       "type": "array",
       "markdownDescription": "A status bar button that opens a quick-select of specified commands.",
       "items": {
@@ -148,7 +148,7 @@
         "properties": {
           "id": {
             "type": "string",
-            "markdownDescription": "The unique ID of the quick-select button\n\nThe ID is prepended with the extension name (betterStatusBar) to create the vscode command id and can be used to create keyboard shortcuts\n\nThis should not have any spaces or special characters."
+            "markdownDescription": "The unique ID of the quick-select button\n\nThe ID is prepended with the extension name (actionLauncher) to create the vscode command id and can be used to create keyboard shortcuts\n\nThis should not have any spaces or special characters."
           },
           "label": {
             "type": "string",
