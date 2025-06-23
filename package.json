@@ -2,7 +2,7 @@
   "name": "action-launcher",
   "displayName": "Action Launcher",
   "description": "Add customizable buttons to the status bar to execute actions or tasks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "icon": "images/acamar.png",
   "publisher": "acamar",
   "repository": {
